@@ -1,0 +1,40 @@
+.grid-container{
+    /* background-color: red; */
+    /* border-style: dashed; */
+    display: grid;
+    grid-template-columns: 70% 30%;
+    gap: 20px;
+    margin: 0 auto;
+    height: 100%;
+    width: 100%;
+}
+.row{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    gap: 20px;
+  
+
+
+}
+.card{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+   
+
+}
+.title{
+    color: black;
+}
+
+img{
+    border-bottom: solid;
+    
+}
+
+/* SIDE-BAR */
+
+.side-basket-container{
+    background-color: RED;
+    position: relative;
+    height: auto;   
+}

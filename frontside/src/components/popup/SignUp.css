@@ -1,0 +1,197 @@
+.popupup {
+    position: absolute;
+    top: 15rem;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.popup-innerup {
+    position: relative;
+    padding-top: 755px;
+    width: 100%;
+    height: 51%;
+    max-width: 460px;
+    background-color: #E0FFE0;
+    color: black;
+    border-radius: 15px;
+    box-sizing: border-box;
+    font-weight: 400;
+}
+
+.popup-innerup .close-btn {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 5%;
+    width: 10%;
+    font-size: 20px;
+    background: none
+}
+
+p{
+    font-size: 30px;
+    position: absolute;
+    top: 0rem;
+    left: 11rem;
+    cursor:default;
+}
+@media screen and (max-width: 1600px) {
+    .popupup {
+        display: none;
+    }
+    .popup-innerup {
+        display: none;
+    }
+}
+/*User name */
+
+.inputup{
+    font-size: 20px; 
+    position: absolute;  
+    bottom: 40rem;
+    left: 2rem;
+    width: 150px;
+    font-weight: 500;
+
+}
+.username{
+    position: absolute;
+    bottom: 37rem;
+    right:  1rem;
+    border-radius: 16px;
+    box-sizing: border-box;
+    max-width: 400px;
+    box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.1);
+}
+
+/*First name */
+
+
+.name{
+    font-size: 20px; 
+    position: absolute;
+    bottom: 34rem;
+    left: 2rem;
+    width: 150px;
+    font-weight: 500;
+
+}
+.nameinput{
+    position: absolute;
+    bottom: 31rem;
+    right:  1rem;
+    box-sizing: border-box;
+    max-width: 400px;
+    border-radius: 16px;
+    box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.1);
+}
+/*last name*/
+.lastname {
+    font-size: 20px; 
+    position: absolute;
+    bottom: 28rem;
+    left: 2rem;
+    width: 150px;
+    font-weight: 500;
+}
+.lastnameinput {
+    position: absolute;
+    bottom: 25rem;
+    right:  1rem;
+    box-sizing: border-box;
+    max-width: 400px;
+    border-radius: 16px;
+    box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.1);   
+}
+/*email*/
+.email {
+    font-size: 20px; 
+    position: absolute;
+    bottom: 22rem;
+    left: 2rem;
+    width: 150px;
+    font-weight: 500;
+
+}
+.emailinput {
+    position: absolute;
+    bottom: 19rem;
+    right:  1rem;
+    box-sizing: border-box;
+    max-width: 400px;
+    border-radius: 16px;
+    box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.1);
+}
+/*pwd*/
+.pwd {
+    font-size: 20px; 
+    position: absolute;
+    bottom: 16rem;
+    left: 2rem;
+    width: 150px;
+    font-weight: 500;
+
+}
+.pwdinput {
+    position: absolute;
+    bottom: 13rem;
+    right:  1rem;
+    box-sizing: border-box;
+    max-width: 400px;
+    border-radius: 16px;
+    box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.1);
+}
+/*confirm*/ 
+    .confirm{
+    font-size: 20px; 
+    position: absolute;
+    bottom: 10rem;
+    left: 2rem;
+    width: 158px;
+    font-weight: 500;
+    }
+    .confirmpwd{
+    position: absolute;
+    bottom: 7rem;
+    right:  1rem;
+    box-sizing: border-box;
+    max-width: 400px;
+    border-radius: 16px;
+    box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.1);
+    }
+
+
+.signup-btn {
+    position: absolute;
+    bottom: 3rem;
+    right: 3rem;
+    height: 5%;
+    padding-right: 35%;
+    padding-left: 30%;
+    font-size: 20px;
+    height: 8%;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    background-color: #3CB371;
+    border-radius: 16px;
+    
+}
+
+/*sign in in case of an account*/
+.signin {
+    position: absolute;
+    top: 45rem;
+    left: 13rem;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+span {
+    color: blue;
+    cursor: pointer;
+    font-size: 19px;
+}
